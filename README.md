@@ -18,8 +18,11 @@ local M = {
     {
       "vifrik/telescope-navic.nvim",
       dependencies = {
-        "SmiteshP/nvim-navic" -- navic needs to be setup manually, see nvim-navic
-      }
+        {
+          "SmiteshP/nvim-navic",
+          opts = { lsp = { auto_attach = true } }, -- can also be attached manually, see nvim-navic
+        },
+      },
     },
   },
 }
