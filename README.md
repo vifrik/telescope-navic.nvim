@@ -28,6 +28,7 @@ function M.config()
   local telescope = require("telescope")
 
   telescope.setup({
+    color_devicons = true, -- needed for highlighting to work
     <telescope_settings...>
   })
 
