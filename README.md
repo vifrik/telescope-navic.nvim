@@ -4,7 +4,7 @@
 ![nvim-navic telescope picker preview](https://github.com/user-attachments/assets/8696cea8-e1df-4c43-896f-a3b88a5e1667)
 
 ## Requirements
-- Neovim >= 0.9.5
+- Neovim >= 0.9.0
 - [nvim-navic](https://github.com/SmiteshP/nvim-navic) (required)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (required)
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
